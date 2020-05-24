@@ -20,6 +20,9 @@ Then the following shell scripts were created (kept in /src/shellscripts): <br/>
 **home_service.sh**: To combine all the actions decribed above. The bot is launched in myworld in gazebo. Also the pick_objects and add_markers nodes are launched. A virtual object is placed at the "pickup location. After the bot arrives at the location, the marker dissapears. Finally, when the bot arrives at the dropoff location, the marker re-appears at  dropoff location. See the out put in images below.<br/>
 
 
+**Robot Initialized (Red Cube at PickUp Location)**
+<img src="images/Start.png" width="779" height="414" />
+
 **Before PickUp (Red Cube at PickUp Location)**
 <img src="images/Before_PickUp.png" width="779" height="414" />
 
