@@ -133,7 +133,7 @@ int main( int argc, char** argv )
         {
             marker.action = visualization_msgs::Marker::DELETE;
             marker_pub.publish(marker);
-            ROS_INFO("Pick-up marker removed");
+            ROS_INFO("Pick-up marker removed.");
             finishPickup = true;
         }  
 
@@ -155,7 +155,7 @@ int main( int argc, char** argv )
             marker.color.b = 1.0f;
             marker.action = visualization_msgs::Marker::ADD;
             marker_pub.publish(marker);
-            ROS_INFO("Drop-off marker displayed");
+            ROS_INFO("Drop-off marker displayed (in Blue)");
             finishDropOff = true;
             ros::Duration(10.0).sleep();
         }  
