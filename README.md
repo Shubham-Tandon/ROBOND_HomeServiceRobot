@@ -12,11 +12,19 @@ git clone https://github.com/turtlebot/turtlebot_simulator.git
 ```
 
 ## Shell Scripts
-Then the following shell scripts were created (kept in /src/shellscripts):
+Then the following shell scripts were created (kept in /src/shellscripts): <br/>
 **test_slam.sh**: To launch turtlebot in myworld and observe map in rviz. Also, the bot could be navigated with keyboard using teleop package.
-**test_navigation.sh**: To la
+**test_navigation.sh**: To launch turtlebot in myworld and observe bot localize using standard amcl ros pacakage in rviz.
+**pick_objects.sh**: To provide multiple goals top the bot and see the bot navigate to those points in rviz.
+**add_markers**: To place a cube shaped virtual object at the "pickup" location, wait for 5 seconds and then move the object to "dropoff" location.
+**home_service.sh**: To combine all the actions decribed above. The bot is launched in myworld in gazebo. Also the pick_objects and add_markers nodes are launched. A virtual object is placed at the "pickup location. After the bot arrives at the location, the marker dissapears. Finally, when the bot arrives at the dropoff location, the marker re-appears at  dropoff location. See the out put in images below.
 
 
-<img src="images/course_code_structure.png" width="779" height="414" />
+**Before PickUp (Red Cube at PickUp Location)**
+<img src="images/Before_Pickup.png" width="779" height="414" />
 
+**After PickUp (Object disappears)**
+<img src="images/After_PickUp.png" width="779" height="414" />
 
+**After DropOff (Object appears in Blue colour)**
+<img src="images/DropOff.png" width="779" height="414" />
