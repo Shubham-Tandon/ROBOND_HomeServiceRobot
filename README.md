@@ -21,7 +21,7 @@ Then the following shell scripts were created (kept in /src/shellscripts): <br/>
 
 
 **Before PickUp (Red Cube at PickUp Location)**
-<img src="images/Before_Pickup.png" width="779" height="414" />
+<img src="images/Before_PickUp.png" width="779" height="414" />
 
 **After PickUp (Object disappears)**
 <img src="images/After_PickUp.png" width="779" height="414" />
